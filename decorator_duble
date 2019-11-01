@@ -8,4 +8,4 @@ def num():
     return 5
 
 resultfun = decor(num)
-print(resultfun)
+print(resultfun())
